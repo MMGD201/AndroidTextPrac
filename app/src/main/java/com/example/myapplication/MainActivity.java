@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
 
         new PmTask(MainActivity.this,listView).execute(new String[]{http});
-        String str="";
     }
 
 
