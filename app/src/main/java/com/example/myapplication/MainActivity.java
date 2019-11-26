@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
 
-        //new PmTask(MainActivity.this,listView).execute(new String[]{http});
+        new PmTask(MainActivity.this,listView).execute(new String[]{http});
+        String str="";
     }
 
 
