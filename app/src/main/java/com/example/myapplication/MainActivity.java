@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
 
         new PmTask(MainActivity.this,listView).execute(new String[]{http});
-        String sBranch1="wsx";
+        String str = null;
     }
 
 
